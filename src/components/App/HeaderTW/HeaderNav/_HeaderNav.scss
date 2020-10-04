@@ -1,0 +1,15 @@
+@import '../../../../index.scss';
+
+.header-nav {
+    background: $headerNavBg;
+    border-bottom: 2px solid #111;
+}
+
+.header-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: auto;
+    height: 70px;
+    align-items: center;
+}

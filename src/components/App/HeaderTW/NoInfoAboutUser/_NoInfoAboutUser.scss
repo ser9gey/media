@@ -1,0 +1,27 @@
+@import '../../../../index.scss';
+
+.info-about-user {
+    border-left: 2px solid $headerUsersItem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-about-user-wrapper {
+    position: relative;
+    border: 2px solid $colorLine;
+    border-radius: 10px;
+    width: 1220px;
+    background: $headerUsersMenu;
+    max-height: 800px;
+    height: 100%;
+}
+
+.info-about-user-wrapper-no {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}

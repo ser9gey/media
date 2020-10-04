@@ -1,0 +1,31 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+  
+// Base settings
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Variables
+
+//Header variables
+$headerNavBg: #F5F5F5;
+$colorItem: #434B4D;
+$fontSizeItem: 18px;
+$headerSearchColor: rgba(134, 188, 243, 0.075);
+$headerUsersMenu: rgb(204, 204, 204);
+$headerUsersMenuChecked: rgb(141, 140, 140);
+$headerUsersItem: #111;
+$colorLine: rgb(0, 191, 255);

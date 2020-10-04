@@ -1,0 +1,20 @@
+@import '../../../../index.scss';
+
+.header-search {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-search__input {
+    background: $headerSearchColor;
+    outline: none;
+    width: 60%;
+    padding: 10px 29px;
+    border-radius: 20px;
+}
+
+.header-search__input-search {
+   margin-left: -30px;
+   margin-top: 12px;
+}

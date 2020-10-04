@@ -1,0 +1,74 @@
+@import '../../../../index.scss';
+
+.info-about-user {
+    border-left: 2px solid $headerUsersItem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-about-user-wrap {
+    position: relative;
+    border: 2px solid $colorLine;
+    border-radius: 10px;
+    width: 1220px;
+    background: $headerUsersMenu;
+    max-height: 800px;
+    height: 100%;
+}
+
+.all-info-about-user {
+    padding: 40px;
+    font-size: 25px;
+}
+
+.header-info-about-user {
+    display: flex;
+}
+
+.header-info-about-user_data {
+    margin-left: 50px;
+}
+
+.header-info-about-user, .main-info-about-user, .footer-info-about-user {
+    border: 2px solid $headerUsersItem;
+    background: $headerUsersMenuChecked;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.header-info-about-user_data p, .main-info-about-user p,  .footer-info-about-user p {
+    padding-bottom: 10px;
+}
+
+.header-user_main-ava {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-info-about-user, .footer-info-about-user {
+    margin-top: 50px;
+}
+
+.header-user_main-ava-full {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    zoom: 200%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.header-user_main-ava-full-active {
+    animation: avatarFull 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes avatarFull {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}

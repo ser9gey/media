@@ -1,0 +1,32 @@
+@import '../../../../index.scss';
+
+
+.users__ul-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.users__ul {
+    background: $headerUsersMenu;
+    overflow-y: auto;
+}
+
+.users__ul-li {
+    display: flex;
+    padding: 10px 40px;
+    align-items: flex-end;
+    border-bottom: 2px solid rgb(0, 191, 255);
+    cursor: pointer;
+}
+
+.users__ul-li_checked {
+    background: $headerUsersMenuChecked;
+}
+
+.users__ul-li-a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: $headerUsersItem;
+}

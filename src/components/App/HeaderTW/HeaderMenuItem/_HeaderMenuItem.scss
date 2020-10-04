@@ -1,0 +1,25 @@
+@import '../../../../index.scss';
+
+.header-menu__ul-li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.header-menu__ul-li:last-child {
+    margin-right: 0px;
+}
+
+.header-menu__ul-li-a {
+    text-decoration: none;
+    color: $colorItem;
+    font-size: $fontSizeItem;
+}
+
+.header-menu__ul-li-a-icon {
+    margin-right: 5px;
+}
+
+.header-menu__ul-li-a-section {
+    font-size: 18px;
+    font-weight: 600;
+}
